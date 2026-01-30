@@ -1,0 +1,32 @@
+package com.kodnest.SpringProj1;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Student {
+	int roll = 11;
+	String name = "Ajay";
+	public Student() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Student(int roll, String name) {
+		super();
+		this.roll = roll;
+		this.name = name;
+	}
+	public int getRoll() {
+		return roll;
+	}
+	public void setRoll(int roll) {
+		this.roll = roll;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+
+}
